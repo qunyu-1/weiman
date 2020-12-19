@@ -1,0 +1,398 @@
+/*
+* @Author: lxy
+* @Date:   2020-12-16 18:18:00
+* @Last Modified by:   lxy
+* @Last Modified time: 2020-12-17 19:38:02
+*/
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+.clear:after{
+	content:'';
+    display:block;
+    height:0;
+    clear:both;
+}
+#theTop{
+	width: 1000px;
+	height: 70px;
+	position: relative;
+	top: 3px;
+	margin:0 auto;
+}
+#theTop img{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.logo{
+	width: 90px;
+}
+.person{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 40px;
+}
+.toptitle{
+	position: absolute;
+	top: 20px;
+	display: inline-block;
+	width: 300px;
+	height:30px;
+	margin:auto;
+}
+.toptitle p{
+	width: 70px;
+	display: inline-block;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-family: 'Adobe 繁黑體 Std'; 
+}
+.toptitle a{
+	color: black;
+}
+.toptitle p:hover a{
+	color: #31e8d5;
+}
+.toptitle p:hover{
+	border-bottom: 2px solid #31e8d5;
+}
+.topright{
+	position: absolute;
+	right: 0px;
+	display: inline-block;
+	height: 70px; 
+}
+.toprightP{
+	width: 100px;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+}
+.topright p{
+	display: inline-block;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-family: 'Adobe 繁黑體 Std'; 
+}
+.topright p a{
+	color: black;
+	font-family: 'Adobe 繁黑體 Std'; 
+}
+.topright p a:hover{
+	color: #31e8d5;
+}
+/* banner */
+.sign1{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 10%;
+	top: 70px;
+	background-color: #065c52;
+	padding-top: 20px;
+	display: none;
+}
+.name{
+	color: white;
+	margin: 0px 0px 10px 60px ;
+}
+.imformation{
+	margin: 0px 0px 0px 15px;
+}
+.tip1{
+	height: 20px;
+	color: #efefef;
+	font-size: 8px;
+	line-height: 20px;
+	margin-left: 20px;
+}
+.sign2{
+	position: absolute;
+	left:60px;
+}
+.thebanner{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.intro{
+	font-size: 10px;
+	font-family: '幼圆';
+	line-height: 20px;
+	font-weight: 700;
+	color: white;
+	width: 200px;
+	position: absolute;
+	top: 240px;
+	right: 30px;
+}
+.bigbanner{
+	position: absolute;
+	top: 0px;
+	width: 1200px;
+	margin:0 auto;
+}
+.sou{
+	width: 400px;
+	height: 40px;
+	position: absolute;
+	padding-left: 40px;
+	top: 80px;
+	left: 330px;
+	border-color: #31e8d5;
+	background-color:#313131;
+	opacity: 0.8;
+}
+.suo{
+	position: absolute;
+	top: 80px;
+	left: 330px;
+	height: 30px;
+	margin: 6px ; 
+	filter:grayscale(80%);
+}
+.sbutton{
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	top: 80px;
+	right: 380px;
+	border-color: #31e8d5;
+}
+.py{
+	position: absolute;
+	width: 200px;
+	top: 500px;
+	height: 45px;
+	left: 5%;
+}
+.third{
+	font-size: 20px;
+	margin-top: 15px;
+	height: 25px;
+	line-height:25px; 
+}
+.comic{	
+	background-color: #065c52;
+	padding-top: 10px;
+	position: relative;
+	top: 480px;
+	margin:0 auto;
+	width: 1200px;
+	height: 530px;
+}
+.comic1 {
+	margin-left: 40px;
+	border-right: 2px solid #31e8d5; 
+}
+.comic3{
+	margin-left: 40px;
+	border-right: 2px solid #31e8d5;
+}
+.comi{
+	height: 250px;
+	float: left;
+}
+.comic2{
+	position: absolute;
+	top: 10px;
+	margin-left: 5px;
+}
+.com{
+	width: 500px;
+	height: 250px;
+	display: inline-block;
+}
+.line{
+	position: relative;
+	height: 10px;
+	margin: 5px 0px;
+}
+.line img{
+	position: absolute;
+	top: 4px;
+} 
+.comicright{
+	margin-left: 20px;
+	width: 280px;
+	display: inline-block;
+}
+.theName{
+	height: 30px;
+	font-size:22px;
+	margin: 10px 0px 30px 0px ;
+}
+.theName a{
+	color: white;
+}
+.theName a:hover{
+	color: #31e8d5;
+}
+.introduce{
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.introduce a{
+	color: #b8b8b8;
+}
+.introduce a:hover{
+	color: #31e8d5;
+}
+.score{
+	color: #b8b8b8;
+	margin-bottom: 20px;
+}
+.demo{
+	width:40px ;
+	height: 25px;
+	background-color: white;
+	border:1px solid black ;
+	border-radius: 10px;
+	text-align: center;
+	display: inline-block;
+}
+.pai{
+	position: relative;
+	width: 200px;
+	height: 45px;
+	left: 5%;
+	top: 475px;
+}
+.comicpai{
+	background-color: #204d48;
+	padding-left: 40px;
+	padding-top: 10px;
+	position: relative;
+	top: 470px;
+	margin:0 auto;
+	width: 1160px;
+	height: 530px;
+}
+.rank{
+	display: inline-block;
+	padding-top: 10px;
+	width: 370px;
+	height: 550px;
+}
+.ranktitle{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.ranktitle a{
+	color: white;
+	font-size: 23px;
+}
+.ranktitle a:hover{
+	color: #31e8d5;
+}
+.big {
+	font-size: 20px;
+	height: 30px;
+	line-height: 30px;
+	margin: 25px 0px 10px 0px;
+}
+.big a{
+	color: white;
+}
+.big a:hover{
+	color:#31e8d5 ;
+}
+.small a{
+	color: white;
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	margin: 0px 0px 0px 30px;
+}
+.small a:hover{
+	color:#31e8d5 ;
+}
+.red a{
+	color: #e37878;
+}
+.yellow a{
+	color: #f4ef97;
+}
+.green a{
+	color: #97f4c9;
+}
+.foot{
+	position: relative;
+	margin: 0 auto;
+	top: 475px;
+	width: 1200px;
+	height: 150px;
+	background-color: #424242;
+}
+.footleft{
+	width: 800px;
+	margin-left: 40px;
+	margin-top: 15px;
+	display: inline-block;
+}
+.footleftTitle{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.lian{
+	display: inline-block;
+	width: 90px;
+	height: 20px;
+	text-align: center;
+}
+.lian a{
+	color: white;
+}
+.lian a:hover{
+	color: #97f4c9;
+}
+.jie{
+	width: 80px;
+	height: 20px;
+	display: inline-block;
+}
+
+.jie2{
+	line-height: 20px;
+	font-size: 10px;
+	font-family: '幼圆';
+	color:white;
+}
+.jie a{
+	font-size: 10px;
+	text-align: center;
+	font-family: '幼圆';
+	color:white;
+}
+.jie a:hover{
+	color: #97f4c9;
+}
+.footright{
+	display: inline-block;
+}
+.footright img{
+	position: absolute;
+	top: 20px;
+	right: 40px;
+	height: 80px;
+}
+.app{
+	color: white;
+	top: 110px;
+	margin-left: 250px;
+	font-size: 10px ;
+}
